@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1 (2026-10-18)
+
+### Fixed
+
+- **⌘T in a worktree's session follows Settings › New tabs and splits open.** With Agent chosen, the new tab runs your agent command in the worktree, as ⌘T does everywhere else; before, it always opened a shell.
+
 ## 2.0.0 (2026-10-09)
 
 The Projects panel is now one panel per window that follows you, instead of one panel per worktree session.
